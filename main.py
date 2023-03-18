@@ -20,7 +20,7 @@ Use /whisper endpoint for api Example:
 import requests
 
 with open('audio.mp3', 'rb') as f:
-    r = requests.post('http://45.95.214.151/whisper', files={'audio': f})
+    r = requests.post('http://localhost/whisper', files={'audio': f})
     print(r.text)
 </pre>
 """
