@@ -14,7 +14,7 @@ app = Flask(__name__)
 def index():
     return """
     
-Use /whisper endpoint for api\nExample:
+Use /whisper endpoint for api Example:
 
 <pre>
 import requests
